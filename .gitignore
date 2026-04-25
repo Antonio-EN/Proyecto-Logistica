@@ -37,3 +37,6 @@ Thumbs.db
 # Configuración sensible (opcional)
 # Si en el futuro usas claves reales, podrías ignorar el properties y usar un .example
 # application.properties
+
+supabase/.temp/
+supabase/
