@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Logística</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-card {
+            width: 100%;
+            max-width: 400px;
+            padding: 2rem;
+            border-radius: 16px;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="login-card shadow-lg">
+        <div class="text-center mb-4">
+            <i class="fas fa-truck-moving fa-3x text-primary mb-3"></i>
+            <h2 class="fw-bold">Logística</h2>
+            <p class="text-light">Introduce tus credenciales</p>
+        </div>
+
+        <!-- Formulario de Login de Spring Security -->
+        <form action="/login" method="POST">
+            <div class="mb-3">
+                <label class="form-label text-light small uppercase fw-bold">Usuario</label>
+                <div class="input-group">
+                    <span class="input-group-text bg-dark border-secondary text-muted"><i
+                            class="fas fa-user"></i></span>
+                    <input type="text" name="username" class="form-control bg-dark text-light border-secondary"
+                        placeholder="Username" required>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label class="form-label text-light small uppercase fw-bold">Contraseña</label>
+                <div class="input-group">
+                    <span class="input-group-text bg-dark border-secondary text-muted"><i
+                            class="fas fa-lock"></i></span>
+                    <input type="password" name="password" class="form-control bg-dark text-light border-secondary"
+                        placeholder="********" required>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary w-100 py-2 fw-bold shadow">
+                Iniciar Sesión <i class="fas fa-sign-in-alt ms-2"></i>
+            </button>
+        </form>
+
+        <div class="text-center mt-4">
+            <p class="text-light small">© Antonio Espiga Noriega - 1º DAW</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

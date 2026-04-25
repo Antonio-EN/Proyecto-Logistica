@@ -1,0 +1,8 @@
+target/
+.vscode/
+.git/
+.gitignore
+*.sql
+*.txt
+.agents/
+skills-lock.json

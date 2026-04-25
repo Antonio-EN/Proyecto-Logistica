@@ -1,0 +1,39 @@
+# Archivos generados por Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Archivos de IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Archivos de Eclipse
+.settings/
+.project
+.classpath
+.factorypath
+
+# Archivos de Visual Studio Code
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# Configuración sensible (opcional)
+# Si en el futuro usas claves reales, podrías ignorar el properties y usar un .example
+# application.properties
