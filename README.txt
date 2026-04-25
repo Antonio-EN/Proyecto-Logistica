@@ -20,4 +20,4 @@ Entrega:
 Documentación:
 
     En la carpeta docs se encuentra la documentación del proyecto (Documentacion_Proyecto_Final.pdf) según la plantilla de la primera evaluación.
-
+    Además he publicado en GitHub Pages la documentación (https://antonio-en.github.io/Proyecto-Logistica/docs/Documentación_Proyecto_Final.pdf)
